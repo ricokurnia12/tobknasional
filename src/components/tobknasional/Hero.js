@@ -7,8 +7,8 @@ import { BsFillPeopleFill } from 'react-icons/bs';
 
 const Hero = () => {
   return (
-    <header className="mb-20 relative font-rubik h-screen min-h-[750px] sm:min-h-[900px] lg:min-h-[800px]  text-white  relative  bg-[url('../assets/bgheromob.png')] sm:bg-[url('../assets/svg.png')]   w-full bg-no-repeat flex items-center sm:items-start  lg:items-center justify-center 2xl:px-36 px-2 pt-7">
-      <div className="w-4/5 -mt-52 lg:-mt-36 lg:w-[50%] sm:mt-12 md:mt-16 lg:me-32">
+    <header className="relative font-rubik h-screen min-h-[750px]   2xl:h-[500px] text-white  relative  bg-[url('../assets/bgheromob.png')] sm:bg-[url('../assets/dekstop2.png')]   w-full bg-no-repeat flex items-center sm:items-start  lg:items-center justify-center 2xl:px-36 sm:px-8 px-3 pt-7 lg:bg-left-top">
+      <div className=" -mt-40 lg:-mt-36 lg:w-[50%] sm:mt-12 md:mt-16 lg:me-32">
         <h1 className="text-2xl lg:-mt-16 md:text-5xl 2xl:text-6xl font-bold mb-2 leading-tight md:mb-8">
           TOBK Nasional
           <br /> Pengenalan Soal SNBT
