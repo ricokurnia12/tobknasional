@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import People from '../../assets/people.png';
+import { Button } from './Button';
 
 const Alasan = () => {
   return (
@@ -24,6 +25,9 @@ const Alasan = () => {
           </p>
         </div>
         <Image src={People} className="mb-2 hidden sm:block w-80" />
+      </div>
+      <div className="flex justify-center">
+        <Button>Daftar Sekarang</Button>
       </div>
     </div>
   );

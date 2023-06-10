@@ -7,7 +7,7 @@ import AppStore from '../../assets/AppStore.png';
 const Sistem = () => {
   return (
     <div className="mx-auto max-w-7xl px-4 md:px-12 mb-12 lg:px-28 2xl:px-0 md:mb-36">
-      <h1 className=" text-xl lg:text-4xl  font-bold text-center px-3 mb-2 md:mb-4 lg:mb-0">
+      <h1 className=" text-xl lg:text-4xl  font-bold text-center px-3 mb-4 md:mb-4 lg:mb-0">
         Bagaimana sistem <br className="md:hidden" />
         pelaksanaanya ?
       </h1>

@@ -5,6 +5,7 @@ import Daftar from '../../assets/daftar.png';
 import { MdDateRange } from 'react-icons/md';
 import Rp from '../../assets/rp.png';
 import { Button } from './Button';
+import Muri from '../../assets/Penghargaan.png';
 
 const Tanggalcaradaftar = () => {
   return (
@@ -41,10 +42,14 @@ const Tanggalcaradaftar = () => {
           </div>
         </div>
       </div>
-      <div className="mt-4 md:flex md:flex-row-reverse">
-        <Image className="w-52 mx-auto md:w-72 lg:w-[26rem] lg:ms-2" src={Daftar} alt="" />
+      <div className="mt-4 md:flex md:flex-row-reverse mb-8">
+        <Image
+          className="w-52 mx-auto md:w-72 lg:w-[26rem] lg:ms-2"
+          src={Daftar}
+          alt=""
+        />
         <div>
-          <p className='lg:text-lg'>
+          <p className="lg:text-lg">
             Untuk cara pendaftaranya sangat mudah lo, Silahkan klik
             tombol daftar sekarang lalu isi data kalian. Untuk kelas
             10 dan 11 SMA kalian hanya perlu membayar Rp 25.000 saja
@@ -60,6 +65,7 @@ const Tanggalcaradaftar = () => {
           <Button>Daftar Sekarang</Button>
         </div>
       </div>
+      <Image src={Muri} className="mx-auto " />
     </div>
   );
 };

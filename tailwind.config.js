@@ -19,6 +19,9 @@ module.exports = {
         fontprimary: '#333333',
         fontsecondary: '#4F4F4F',
       },
+      screens: {
+        xs: '330px',
+      },
     },
   },
   plugins: [],
