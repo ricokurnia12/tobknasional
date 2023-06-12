@@ -31,11 +31,21 @@ const Sistem = () => {
           <div className="flex justify-center md:justify-end ">
             <Image className="w-28 md:hidden " src={Gokre} alt="" />
             <div className="self-center md:flex ">
-              <Image
-                className="w-32 lg:w-40 mb-4 md:mb-0 md:me-4"
-                src={Googleplay}
-              />
-              <Image className="w-32 lg:w-40" src={AppStore} />
+              <a
+                href="https://play.google.com/store/apps/details?id=com.ganeshaoperation.kreasiv4"
+                target="_blank"
+              >
+                <Image
+                  className="w-32 lg:w-40 mb-4 md:mb-0 md:me-4"
+                  src={Googleplay}
+                />
+              </a>
+              <a
+                href="https://apps.apple.com/id/app/go-kreasi-siswa-ortu/id1634767332"
+                target="_blank"
+              >
+                <Image className="w-32 lg:w-40" src={AppStore} />
+              </a>
             </div>
           </div>
         </div>

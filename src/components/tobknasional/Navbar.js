@@ -14,9 +14,11 @@ const Navbar = () => {
         />
         <span className="text-white font-semibold text-lg">Logo</span>
       </div>
-      <button className="bg-primary hover:bg-red-600 text-white text-sm sm:font-semibold p-1 md:py-2 md:px-4 rounded">
-        Daftar TOBK Nasional
-      </button>
+      <a>
+        <button className="bg-primary hover:bg-red-600 text-white text-sm sm:font-semibold p-1 md:py-2 md:px-4 rounded">
+          Daftar TOBK Nasional
+        </button>
+      </a>
     </nav>
   );
 };

@@ -58,7 +58,7 @@ const Hero = () => {
         <Image
           src={Gokre}
           alt="TOBK NASIONAL GANESHA OPERATION"
-          className={`sm:w-96 2xl:w-full mt-20 2xl:mt-16 hidden md:block ${Style.bouncingelement}`}
+          className={`sm:w-96 2xl:w-full mt-20 2xl:mt-16 hidden md:block md:absolute right-0 top-0 md:w-48 lg:static ${Style.bouncingelement}`}
         />
       </div>
     </header>
