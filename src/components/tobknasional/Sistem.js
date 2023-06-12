@@ -3,32 +3,47 @@ import React from 'react';
 import Gokre from '../../assets/gokre 1.png';
 import Googleplay from '../../assets/GooglePlay.png';
 import AppStore from '../../assets/AppStore.png';
+import { AiFillApple, AiFillAndroid } from 'react-icons/ai';
 
 const Sistem = () => {
   return (
-    <div className="mx-auto max-w-7xl px-4 md:px-12 mb-12 lg:px-28 2xl:px-0 md:mb-36">
+    <div className="relative mx-auto max-w-7xl px-4 md:px-12 mb-12 lg:px-28 2xl:px-0 md:mb-36">
       <h1 className=" text-xl lg:text-4xl  font-bold text-center px-3 mb-4 md:mb-4 lg:mb-0">
         Bagaimana sistem <br className="md:hidden" />
         pelaksanaanya ?
       </h1>
       <div className="md:flex justify-center mb-1 text-fontsecondary">
         <Image
-          className="w-40 hidden md:block lg:w-64"
+          className="w-full hidden md:block "
           src={Gokre}
-          alt=""
+          alt="Gokreasi"
         />
         <div className="self-center lg:self-start lg:mt-12">
           <p className="md:text-right lg:text-xl  mb-8">
-            Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry
-            standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a
-            type specimen bookLorem Ipsum has been the industrys
-            standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a
-            type specimen book
+            TOBK Nasional ini dilaksanakan untuk kamu kelas 10, 11,
+            dan 12 SMA/SMK/MA. Kamu bisa pilih 1 tanggal pelaksanaan
+            TOBK di periode 28 Juli, 29 Juli, atau 30 Juli 2023. Untuk
+            kelas 10 dan 11 SMA/SMK/MA durasi TO selama 100 menit, dan
+            untuk kelas 12 SMA/SMK/MA durasi TO 90 menit + 105 menit.
+            TOBK nasional ini dilaksanakan melalui GO Kreasi lho! Nah
+            untuk kamu yang belum menjadi siswa GO, kamu diberi
+            kesempatan untuk ngerasain asyiknya TOBK di GO Kreasi lho!
+            Tunggu apalagi? Yuk, daftar sekarang juga..!!
           </p>
-          <div className="flex justify-center md:justify-end ">
+          <div>
+            <h1 className="italic">system requirements</h1>
+            <div className="flex font-bold text-lg">
+              <AiFillAndroid className="self-center me-2" /> Android
+            </div>
+            <p>Minimal : Android 5.0 (Lollipop), API Level 21</p>
+            <p>Maksimal : Android 13 (Tiramisu), API Level 33</p>
+            <div className="flex font-bold text-lg">
+              <AiFillApple className="self-center me-2" /> iOS
+            </div>
+            <p>Minimal : Android 5.0 (Lollipop), API Level 21</p>
+            <p>Maksimal : Android 13 (Tiramisu), API Level 33</p>
+          </div>
+          <div className="flex justify-center md:justify-start mt-4 ">
             <Image className="w-28 md:hidden " src={Gokre} alt="" />
             <div className="self-center md:flex ">
               <a

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import Style from './style.module.css';
 import Gokre from '../../assets/gokrehero.png';
+import People from '../../assets/peoplehero.png';
 import { MdDateRange } from 'react-icons/md';
 import { BsFillPeopleFill, BsPhone } from 'react-icons/bs';
 import {
@@ -12,8 +13,8 @@ import { Button } from './Button';
 
 const Hero = () => {
   return (
-    <header className="relative font-rubik min-h-[750px]  text-white bg-[url('../assets/bgheromob.png')] md:bg-[url('../assets/dekstop2.png')]  2xl:bg-[url('../assets/dekstop3.png')]   w-full bg-no-repeat flex  justify-between md:justify-center 2xl:px-36 sm:px-8 px-3 pt-7 lg:bg-left-top">
-      <div className=" mt-16 lg:mt-28 xl:mt-28 lg:w-[50%] sm:mt-12 md:mt-16 lg:me-32">
+    <header className="relative font-rubik min-h-[750px]   text-white bg-[url('../assets/bgheromob.png')] sm:bg-[url('../assets/dekstop2.png')]  2xl:bg-[url('../assets/dekstop3.png')]   w-full bg-no-repeat flex  justify-between lg:justify-center 2xl:px-36 sm:px-8 px-3 pt-7 lg:bg-left-top">
+      <div className=" mt-16 lg:mt-28 xl:mt-28 lg:w-[50%] sm:mt-12 md:mt-16 lg:me-12">
         <h1 className="text-2xl sm:mt-8 lg:-mt-10 md:text-4xl 2xl:mt-1 2xl:text-6xl font-bold mb-2 leading-tight md:mb-4">
           TOBK Nasional 2023
           <br /> Pengenalan Soal SNBT
@@ -59,17 +60,17 @@ const Hero = () => {
           </div>
         </div> */}
         <Image
-          src={Gokre}
+          src={People}
           alt="TOBK NASIONAL GANESHA OPERATION"
-          className={`${Style.bouncingelement} absolute top-96 sm:top-40 right-0 md:hidden w-24 xs:w-40  sm:w-72`}
+          className={`${Style.bouncingelement} absolute bottom-16 xs:top-96 right-0 sm:top-40   md:hidden w-32 xs:w-52  sm:w-72`}
         />
         <Button>Daftar Sekarang</Button>
       </div>
       <div>
         <Image
-          src={Gokre}
+          src={People}
           alt="TOBK NASIONAL GANESHA OPERATION"
-          className={`sm:w-96 2xl:w-full mt-20 2xl:mt-16 hidden md:block md:absolute right-0 top-0 md:w-48 lg:static ${Style.bouncingelement}`}
+          className={`sm:w-96 2xl:w-full mt-20 2xl:mt-16 hidden md:block md:absolute right-0 top-0 md:w-72 lg:static lg:w-full ${Style.bouncingelement}`}
         />
       </div>
     </header>

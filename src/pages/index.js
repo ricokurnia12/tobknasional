@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 
 const index = () => {
   return (
-    <div className="text-fontprimary">
+    <div className="text-fontprimary font-rubik">
       <TobkNasional />
       <Footer />
     </div>

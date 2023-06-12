@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import People from '../../assets/people.png';
+import People from '../../assets/peoplealasan.png';
 import { Button } from './Button';
 
 const Alasan = () => {
@@ -27,7 +27,7 @@ const Alasan = () => {
             menggunakan <i>IRT</i> dan
             <i>CEEB</i> seperti pada UTBK-SNBT sesungguhnya.{' '}
             <b>
-               Sstt.. Sistem penilaian ini akan valid jika pesertanya
+              Sstt.. Sistem penilaian ini akan valid jika pesertanya
               minimum 10.000 lho
             </b>
             , jadi awas yaa kamu terjebak dengan TOBK bimbel lain yang
@@ -37,7 +37,7 @@ const Alasan = () => {
         </div>
         <Image
           src={People}
-          className="mb-2 hidden sm:block w-80"
+          className="mb-2 hidden sm:block w-72 lg:w-full"
           alt="TOBK NASIONAL Ganesha Operation"
         />
       </div>
