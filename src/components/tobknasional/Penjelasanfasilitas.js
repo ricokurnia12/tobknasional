@@ -44,7 +44,7 @@ const PenjelasanTobk = () => {
       icon: RiBookReadFill,
       title: 'Prediksi',
       details:
-        'Mengetahui prediksi lulus(PL) di progam studi PTN impianmu',
+        'Mengetahui prediksi lulus (PL) di progam studi PTN impianmu',
     },
   ];
 
@@ -55,8 +55,8 @@ const PenjelasanTobk = () => {
           Apa Itu TOBK Nasional Ganesha Operation ?{' '}
         </h1>
         <p className="text-fontsecondary lg:text-xl  2xl:px-24">
-          Try Out Berbasis Komputer (TOBK) yang diselenggarakan oleh
-          Ganesha Operation dengan jumlah peserta tersebar
+          <i>Try Out</i> Berbasis Komputer (TOBK) yang diselenggarakan
+          oleh Ganesha Operation dengan jumlah peserta tersebar
           se-Indonesia dan dilaksanakan melalui aplikasi GO Kreasi.
           TOBK ini diadakan agar kamu tahu bagaimana gambaran
           pelaksanaan UTBK-SNBT, soal-soal yang diujikannya, juga
