@@ -15,11 +15,11 @@ const TobkNasional = () => {
     <div className="relative w">
       <Image
         className="hidden md:block md:absolute md:top-[990px]  lg:bottom-44 -left-15 -z-50 w-40"
-        src={bg2}
+        src={bg2} alt='background'
       />
       <Image
         className="hidden md:block absolute  bottom-[750px] right-0 -z-50 w-40"
-        src={bg3}
+        src={bg3} alt='background'
       />
       <Navbar />
       <Hero />
@@ -27,7 +27,7 @@ const TobkNasional = () => {
       <Sistem />
       <Alasan />
       <Tanggalcaradaftar />
-      {/* <Footer /> */}
+  
     </div>
   );
 };

@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div className="text-fontprimary">
       <TobkNasional />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

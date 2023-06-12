@@ -38,13 +38,18 @@ const Sistem = () => {
                 <Image
                   className="w-32 lg:w-40 mb-4 md:mb-0 md:me-4"
                   src={Googleplay}
+                  alt="Playstore GO Kreasi"
                 />
               </a>
               <a
                 href="https://apps.apple.com/id/app/go-kreasi-siswa-ortu/id1634767332"
                 target="_blank"
               >
-                <Image className="w-32 lg:w-40" src={AppStore} />
+                <Image
+                  className="w-32 lg:w-40"
+                  src={AppStore}
+                  alt="appstore GO Kreasi"
+                />
               </a>
             </div>
           </div>

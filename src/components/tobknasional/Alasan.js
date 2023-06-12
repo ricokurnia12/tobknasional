@@ -9,22 +9,37 @@ const Alasan = () => {
       <div className="sm:flex justify-center">
         <div className="ms-2 lg:pe-16">
           <h1 className="text-xl lg:text-2xl font-bold text-center px-2 mb-2 sm:text-start sm:px-0">
-            Kenapa Kamu Harus Ikut Progam Ini ?
+            Kenapa Kamu Harus Ikut TOBK Nasional ini ?
           </h1>
-          <Image src={People} className="mx-auto mb-8 sm:hidden" />
+          <Image
+            src={People}
+            className="mx-auto mb-8 sm:hidden"
+            alt="TOBK NASIONAL Ganesha Operation"
+          />
           <p className="lg:text-lg text-fontsecondary">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Iusto reiciendis, error illum accusamus sapiente aperiam
-            a, aspernatur eligendi praesentium labore porro temporibus
-            distinctio enim ex debitis iure necessitatibus, sequi
-            mollitia? Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Iusto reiciendis, error illum accusamus
-            sapiente aperiam a, aspernatur eligendi praesentium labore
-            porro temporibus distinctio enim ex debitis iure
-            necessitatibus, sequi mollitia?
+            Karena di TOBK Nasional ini, kamu akan diberikan
+            kesempatan merasakan TOBK yang mirip sesungguhnya.
+            Soal-soal yang diujikan mirip dengan{' '}
+            <b>UTBK-SNBT sebenarnya</b>, yang dapat kamu kerjakan
+            dengan system <i>blocking time</i>, kereen kan? Kamu
+            bakalan ngerasa banget deg-degannya saat waktu pengerjaan
+            soal akan habis. Selain itu, system penilaiannya sudah
+            menggunakan <i>IRT</i> dan
+            <i>CEEB</i> seperti pada UTBK-SNBT sesungguhnya.{' '}
+            <b>
+               Sstt.. Sistem penilaian ini akan valid jika pesertanya
+              minimum 10.000 lho
+            </b>
+            , jadi awas yaa kamu terjebak dengan TOBK bimbel lain yang
+            katanya penilaiannya <i>IRT</i> dan <i>CEEB</i>
+            ..!!
           </p>
         </div>
-        <Image src={People} className="mb-2 hidden sm:block w-80" />
+        <Image
+          src={People}
+          className="mb-2 hidden sm:block w-80"
+          alt="TOBK NASIONAL Ganesha Operation"
+        />
       </div>
       <div className="flex justify-center">
         <Button>Daftar Sekarang</Button>

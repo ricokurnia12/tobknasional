@@ -16,15 +16,23 @@ const PenjelasanTobk = () => {
     },
     {
       icon: AiOutlineFieldTime,
-      title: 'Blocking Time',
-      details:
-        'TOBK menggunakan system blocking time yaitu waktu pengerjaan per subtest ujian',
+      title: <i>Blocking Time</i>,
+      details: (
+        <p>
+          TOBK menggunakan system <i>blocking time</i> yaitu waktu
+          pengerjaan per <i>subtest</i> ujian
+        </p>
+      ),
     },
     {
       icon: MdOutlineAnalytics,
       title: 'Penilaian',
-      details:
-        'Penilaian IRT dan CEEB yang sama digunakan pada saat penilaian SNBT',
+      details: (
+        <p>
+          Penilaian <i>IRT</i> dan <i>CEEB</i> yang sama digunakan
+          pada saat penilaian SNBT
+        </p>
+      ),
     },
     {
       icon: SiBookmeter,
