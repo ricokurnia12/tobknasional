@@ -29,8 +29,8 @@ const Footer = () => {
       <p className="text-center mt-2 lg:text-xl font-bold lg:mt-7">
         Bimbel Terbaik dan Terbesar Se-Indonesia
       </p>
-      <div className=" flex flex-col md:flex-row md:justify-center  items-center p-4 mx-auto">
-        <div className="md:me-8">
+      <div className=" flex flex-col md:flex-row md:justify-around max-w-5xl  items-center p-4 mx-auto">
+        <div className="lg:-ms-10 ">
           <div className="mx-auto mb-2">
             <Image
               src={Google}

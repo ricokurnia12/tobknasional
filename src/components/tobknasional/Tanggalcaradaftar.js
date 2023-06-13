@@ -68,11 +68,7 @@ const Tanggalcaradaftar = () => {
         </div>
       </div>
       <div className="mt-4 md:flex md:flex-row-reverse mb-8">
-        {/* <Image
-          className="w-52 mx-auto md:w-72 lg:w-[26rem] lg:ms-2"
-          src={Daftar}
-          alt=""
-        /> */}
+       
         <div>
           <p className="lg:text-xl lg:text-center">
             Untuk cara pendaftaranya sangat mudah lo, Kamu tinggal
@@ -96,7 +92,6 @@ const Tanggalcaradaftar = () => {
           </div>
         </div>
       </div>
-      {/* <Image src={Muri} className="mx-auto " /> */}
 
       {/* Yotube video */}
 
@@ -104,26 +99,17 @@ const Tanggalcaradaftar = () => {
         <h1 className=" text-xl lg:text-4xl  font-bold text-center px-3 mb-2 md:mb-12">
           Apa Kata Mereka Tentang Soal-soal UTBK-SNBT 2023
         </h1>
-        {/* <div className="text-center ratio ratio-16x9"> */}
-        {/* <iframe
-            className="embed-responsive-item"
-            src="https://www.youtube.com/watch?v=95V7THWcanM?controls=0&amp;start=805&end=850"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe> */}
+
         <iframe
           className=" aspect-video w-full max-w-4xl shadow-xl rounded-xl border border-fontprimary  "
-          // width="640"
-          // height="360"
+         
           src="https://www.youtube.com/embed/95V7THWcanM?rel=0"
           title="SOAL UTBK-SNBT MIRIP GO!!!"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-        {/* </div> */}
+     
       </div>
     </div>
   );

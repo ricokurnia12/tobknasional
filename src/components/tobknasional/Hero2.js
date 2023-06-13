@@ -45,24 +45,11 @@ const Hero = () => {
             <span>Pelaksanaan di GO Kreasi</span>
           </div>
         </div>
-        {/* <div className=" flex flex-col md:flex-row justify-start">
-          <div className="mb-3 me-4 bg-white text-fontprimary font-bold text-xs rounded-md relative w-52 px-4 py-2">
-            <AiFillCheckCircle className=" text-xl absolute -top-2 -left-2 bg-white rounded-full text-green-500 " />
-            Penilaian menggunakan Item Response Theory (IRT)
-          </div>
-          <div className="mb-3 me-4 bg-white text-fontprimary font-bold text-xs rounded-md relative w-52 px-4 py-2">
-            <AiFillCheckCircle className="text-xl absolute -top-2 -left-2 bg-white rounded-full text-green-500 " />
-            Jumlah peserta minimal 10.000
-          </div>
-          <div className="mb-3 me-4 bg-white text-fontprimary font-bold text-xs rounded-md relative w-52 px-4 py-2">
-            <AiFillCheckCircle className="text-xl absolute -top-2 -left-2 bg-white rounded-full text-green-500 " />
-            Peserta Tersebar Merata Se-Indonesia
-          </div>
-        </div> */}
+
         <Image
           src={People}
           alt="TOBK NASIONAL GANESHA OPERATION"
-          className={`${Style.bouncingelement} absolute bottom-16 xs:top-96 right-0 sm:top-40   md:hidden w-32 xs:w-52  sm:w-72`}
+          className={`${Style.bouncingelement} absolute bottom-16 xs:top-96 right-0 sm:top-40   md:hidden w-32 xs:w-52 s:w-64  sm:w-72`}
         />
         <Button>Daftar Sekarang</Button>
       </div>
@@ -70,7 +57,7 @@ const Hero = () => {
         <Image
           src={People}
           alt="TOBK NASIONAL GANESHA OPERATION"
-          className={`sm:w-96 2xl:w-full mt-20 2xl:mt-16 hidden md:block md:absolute right-0 top-0 md:w-72 lg:static lg:w-full ${Style.bouncingelement}`}
+          className={`sm:w-96  mt-20 2xl:mt-16 hidden md:block md:absolute right-0 top-0 md:w-72 lg:static lg:w-full 2xl:w-[33rem] ${Style.bouncingelement}`}
         />
       </div>
     </header>

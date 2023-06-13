@@ -23,7 +23,8 @@ module.exports = {
         fontsecondary: '#4F4F4F',
       },
       screens: {
-        xs: '330px',
+        xs: '341px',
+        s: '460px',
       },
     },
   },
