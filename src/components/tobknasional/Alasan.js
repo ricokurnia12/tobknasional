@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import React from 'react';
-import People from '../../assets/peoplealasan.png';
 import { Button } from './Button';
 
 const Alasan = () => {
@@ -11,8 +9,8 @@ const Alasan = () => {
           <h1 className="text-xl lg:text-2xl font-bold text-center px-2 mb-2 sm:text-start sm:px-0">
             Kenapa Kamu Harus Ikut TOBK Nasional ini ?
           </h1>
-          <Image
-            src={People}
+          <img
+            src="peoplealasan.png"
             className="mx-auto mb-8 sm:hidden"
             alt="TOBK NASIONAL Ganesha Operation"
           />
@@ -35,8 +33,8 @@ const Alasan = () => {
             ..!!
           </p>
         </div>
-        <Image
-          src={People}
+        <img
+          src="peoplealasan.png"
           className="mb-2 hidden sm:block w-72 lg:w-full"
           alt="TOBK NASIONAL Ganesha Operation"
         />

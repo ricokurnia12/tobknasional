@@ -1,9 +1,6 @@
-import Image from 'next/image';
 import React from 'react';
-import Gokre from '../../assets/gokrehero.png';
 import { MdDateRange } from 'react-icons/md';
 import { AiOutlineFieldTime } from 'react-icons/ai';
-import Rp from '../../assets/rp.png';
 import { Button } from './Button';
 
 const Tanggalcaradaftar = () => {
@@ -15,9 +12,9 @@ const Tanggalcaradaftar = () => {
           pendaftaranya?
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start">
-          <Image
+          <img
             className="w-32 md:w-52 lg:w-96 me-4"
-            src={Gokre}
+            src="gokrehero.png"
             alt="GO KREASI"
           />
           <div>
@@ -68,7 +65,6 @@ const Tanggalcaradaftar = () => {
         </div>
       </div>
       <div className="mt-4 md:flex md:flex-row-reverse mb-8">
-       
         <div>
           <p className="lg:text-xl lg:text-center">
             Untuk cara pendaftaranya sangat mudah lo, Kamu tinggal
@@ -81,7 +77,11 @@ const Tanggalcaradaftar = () => {
             Yuk, daftar TOBK Nasional Sekarang!
           </h1>
           <div className="flex lg:justify-center">
-            <Image className="w-12 self-center " alt="Go" src={Rp} />
+            <img
+              className="w-12 self-center "
+              alt="Go"
+              src="rp.png"
+            />
             <div className="font-bold text-sm text-fontsecondary self-center">
               <p>Rp 25.000 (Untuk Kelas 10-11 SMA/SMK/MA)</p>
               <p>Rp 50.000 (Untuk Kelas 10-11 SMA/SMK/MA)</p>
@@ -102,14 +102,12 @@ const Tanggalcaradaftar = () => {
 
         <iframe
           className=" aspect-video w-full max-w-4xl shadow-xl rounded-xl border border-fontprimary  "
-         
           src="https://www.youtube.com/embed/95V7THWcanM?rel=0"
           title="SOAL UTBK-SNBT MIRIP GO!!!"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-     
       </div>
     </div>
   );

@@ -1,8 +1,5 @@
-import Image from 'next/image';
 import React from 'react';
 import Style from './style.module.css';
-import Gokre from '../../assets/gokrehero.png';
-import People from '../../assets/peoplehero.png';
 import { MdDateRange } from 'react-icons/md';
 import { BsFillPeopleFill, BsPhone } from 'react-icons/bs';
 import {
@@ -46,16 +43,16 @@ const Hero = () => {
           </div>
         </div>
 
-        <Image
-          src={People}
+        <img
+          src="peoplehero.png"
           alt="TOBK NASIONAL GANESHA OPERATION"
           className={`${Style.bouncingelement} absolute bottom-16 xs:top-96 right-0 sm:top-40   md:hidden w-32 xs:w-52 s:w-64  sm:w-72`}
         />
         <Button>Daftar Sekarang</Button>
       </div>
       <div>
-        <Image
-          src={People}
+        <img
+          src="peoplehero.png"
           alt="TOBK NASIONAL GANESHA OPERATION"
           className={`sm:w-96  mt-20 2xl:mt-16 hidden md:block md:absolute right-0 top-0 md:w-72 lg:static lg:w-full 2xl:w-[33rem] ${Style.bouncingelement}`}
         />

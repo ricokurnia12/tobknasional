@@ -1,8 +1,4 @@
-import Image from 'next/image';
 import React from 'react';
-import Gokre from '../../assets/gokre 1.png';
-import Googleplay from '../../assets/GooglePlay.png';
-import AppStore from '../../assets/AppStore.png';
 import { AiFillApple, AiFillAndroid } from 'react-icons/ai';
 
 const Sistem = () => {
@@ -13,9 +9,9 @@ const Sistem = () => {
         pelaksanaanya ?
       </h1>
       <div className="md:flex justify-center mb-1 text-fontsecondary">
-        <Image
+        <img
           className="w-full hidden md:block "
-          src={Gokre}
+          src="gokre1.png"
           alt="Gokreasi"
         />
         <div className="self-center lg:self-start lg:mt-12">
@@ -44,15 +40,15 @@ const Sistem = () => {
             <p>Maksimal : Android 13 (Tiramisu), API Level 33</p>
           </div>
           <div className="flex justify-center md:justify-start mt-4 ">
-            <Image className="w-28 md:hidden " src={Gokre} alt="" />
+            <img className="w-28 md:hidden " src="gokre1.png" alt="" />
             <div className="self-center md:flex ">
               <a
                 href="https://play.google.com/store/apps/details?id=com.ganeshaoperation.kreasiv4"
                 target="_blank"
               >
-                <Image
+                <img
                   className="w-32 lg:w-40 mb-4 md:mb-0 md:me-4"
-                  src={Googleplay}
+                  src="GooglePlay.png"
                   alt="Playstore GO Kreasi"
                 />
               </a>
@@ -60,9 +56,9 @@ const Sistem = () => {
                 href="https://apps.apple.com/id/app/go-kreasi-siswa-ortu/id1634767332"
                 target="_blank"
               >
-                <Image
+                <img
                   className="w-32 lg:w-40"
-                  src={AppStore}
+                  src="AppStore.png"
                   alt="appstore GO Kreasi"
                 />
               </a>

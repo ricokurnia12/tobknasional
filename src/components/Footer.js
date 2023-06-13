@@ -10,19 +10,14 @@ import {
   FaLine,
 } from 'react-icons/fa';
 
-import Appstore from '../assets/Footerpic/appstore.png';
-import Belanja from '../assets/Footerpic/belanja.png';
-import Google from '../assets/Footerpic/google.png';
 
 import React from 'react';
-import Logo from '../assets/Footerpic/logo.png';
-import Image from 'next/image';
 
 const Footer = () => {
   return (
     <div className="bg-gray-900 p-4 text-white">
-      <Image
-        src={Logo}
+      <img
+        src="/logo.png"
         alt="GO"
         className="w-28 lg:w-36 mx-auto mt-8"
       />
@@ -32,13 +27,13 @@ const Footer = () => {
       <div className=" flex flex-col md:flex-row md:justify-around max-w-5xl  items-center p-4 mx-auto">
         <div className="lg:-ms-10 ">
           <div className="mx-auto mb-2">
-            <Image
-              src={Google}
+            <img
+              src="google.png"
               className="mx-auto"
               alt="GooglePlay Go Kreasi"
             />
-            <Image
-              src={Appstore}
+            <img
+              src="appstore.png"
               className="mx-auto"
               alt="AppStore Go Kreasi"
             />
@@ -52,8 +47,8 @@ const Footer = () => {
             <h1 className="text-center font-bold mb-2 lg:text-xl">
               Keamanan Belanja
             </h1>
-            <Image
-              src={Belanja}
+            <img
+              src="belanja.png"
               alt="keamanan belanja ganehsa operation"
               className="md:w-36 lg:w-48 md:mx-auto"
             />
