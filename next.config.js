@@ -3,7 +3,8 @@ const nextConfig = {
   env: {
     BASE_DIRECTORY: 'tobk_nasional_go_testing',
   },
-  reactStrictMode: true,
+  basePath: '/tobk_nasional_go_testing',
+  // reactStrictMode: true,
 };
 
 module.exports = nextConfig;

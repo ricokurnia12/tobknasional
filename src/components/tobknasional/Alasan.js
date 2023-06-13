@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
+import Directory from '@/baseDirectory';
 
 const Alasan = () => {
   return (
@@ -10,7 +11,7 @@ const Alasan = () => {
             Kenapa Kamu Harus Ikut TOBK Nasional ini ?
           </h1>
           <img
-            src="peoplealasan.png"
+            src={`/${Directory}/peoplealasan.png`}
             className="mx-auto mb-8 sm:hidden"
             alt="TOBK NASIONAL Ganesha Operation"
           />
@@ -34,7 +35,7 @@ const Alasan = () => {
           </p>
         </div>
         <img
-          src="peoplealasan.png"
+          src={`/${Directory}/peoplealasan.png`}
           className="mb-2 hidden sm:block w-72 lg:w-full"
           alt="TOBK NASIONAL Ganesha Operation"
         />

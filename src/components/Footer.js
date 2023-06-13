@@ -10,14 +10,14 @@ import {
   FaLine,
 } from 'react-icons/fa';
 
-
 import React from 'react';
+import Directory from '@/baseDirectory';
 
 const Footer = () => {
   return (
     <div className="bg-gray-900 p-4 text-white">
       <img
-        src="/logo.png"
+        src={`/${Directory}/logo.png`}
         alt="GO"
         className="w-28 lg:w-36 mx-auto mt-8"
       />
@@ -28,12 +28,12 @@ const Footer = () => {
         <div className="lg:-ms-10 ">
           <div className="mx-auto mb-2">
             <img
-              src="google.png"
+              src={`/${Directory}/google.png`}
               className="mx-auto"
               alt="GooglePlay Go Kreasi"
             />
             <img
-              src="appstore.png"
+              src={`/${Directory}/appstoree.png`}
               className="mx-auto"
               alt="AppStore Go Kreasi"
             />
@@ -48,7 +48,7 @@ const Footer = () => {
               Keamanan Belanja
             </h1>
             <img
-              src="belanja.png"
+              src={`/${Directory}/belanja.png`}
               alt="keamanan belanja ganehsa operation"
               className="md:w-36 lg:w-48 md:mx-auto"
             />

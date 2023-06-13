@@ -7,6 +7,7 @@ import {
   AiOutlineFieldTime,
 } from 'react-icons/ai';
 import { Button } from './Button';
+import Directory from '@/baseDirectory';
 
 const Hero = () => {
   return (
@@ -44,7 +45,7 @@ const Hero = () => {
         </div>
 
         <img
-          src="peoplehero.png"
+          src={`/${Directory}/peoplehero.png`}
           alt="TOBK NASIONAL GANESHA OPERATION"
           className={`${Style.bouncingelement} absolute bottom-16 xs:top-96 right-0 sm:top-40   md:hidden w-32 xs:w-52 s:w-64  sm:w-72`}
         />
@@ -52,7 +53,7 @@ const Hero = () => {
       </div>
       <div>
         <img
-          src="peoplehero.png"
+          src={`/${Directory}/peoplehero.png`}
           alt="TOBK NASIONAL GANESHA OPERATION"
           className={`sm:w-96  mt-20 2xl:mt-16 hidden md:block md:absolute right-0 top-0 md:w-72 lg:static lg:w-full 2xl:w-[33rem] ${Style.bouncingelement}`}
         />

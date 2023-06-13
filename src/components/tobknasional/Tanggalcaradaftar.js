@@ -2,6 +2,7 @@ import React from 'react';
 import { MdDateRange } from 'react-icons/md';
 import { AiOutlineFieldTime } from 'react-icons/ai';
 import { Button } from './Button';
+import Directory from '@/baseDirectory';
 
 const Tanggalcaradaftar = () => {
   return (
@@ -14,7 +15,7 @@ const Tanggalcaradaftar = () => {
         <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start">
           <img
             className="w-32 md:w-52 lg:w-96 me-4"
-            src="gokrehero.png"
+            src={`/${Directory}/gokrehero.png`}
             alt="GO KREASI"
           />
           <div>
@@ -80,7 +81,7 @@ const Tanggalcaradaftar = () => {
             <img
               className="w-12 self-center "
               alt="Go"
-              src="rp.png"
+              src={`/${Directory}/rp.png`}
             />
             <div className="font-bold text-sm text-fontsecondary self-center">
               <p>Rp 25.000 (Untuk Kelas 10-11 SMA/SMK/MA)</p>

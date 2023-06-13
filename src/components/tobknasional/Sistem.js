@@ -1,3 +1,4 @@
+import Directory from '@/baseDirectory';
 import React from 'react';
 import { AiFillApple, AiFillAndroid } from 'react-icons/ai';
 
@@ -11,7 +12,7 @@ const Sistem = () => {
       <div className="md:flex justify-center mb-1 text-fontsecondary">
         <img
           className="w-full hidden md:block "
-          src="gokre1.png"
+          src={`/${Directory}/gokre1.png`}
           alt="Gokreasi"
         />
         <div className="self-center lg:self-start lg:mt-12">
@@ -40,7 +41,11 @@ const Sistem = () => {
             <p>Maksimal : Android 13 (Tiramisu), API Level 33</p>
           </div>
           <div className="flex justify-center md:justify-start mt-4 ">
-            <img className="w-28 md:hidden " src="gokre1.png" alt="" />
+            <img
+              className="w-28 md:hidden "
+              src={`/${Directory}/gokre1.png`}
+              alt=""
+            />
             <div className="self-center md:flex ">
               <a
                 href="https://play.google.com/store/apps/details?id=com.ganeshaoperation.kreasiv4"
@@ -48,7 +53,7 @@ const Sistem = () => {
               >
                 <img
                   className="w-32 lg:w-40 mb-4 md:mb-0 md:me-4"
-                  src="GooglePlay.png"
+                  src={`/${Directory}/GooglePlay.png`}
                   alt="Playstore GO Kreasi"
                 />
               </a>
@@ -58,7 +63,7 @@ const Sistem = () => {
               >
                 <img
                   className="w-32 lg:w-40"
-                  src="AppStore.png"
+                  src={`/${Directory}/AppStore.png`}
                   alt="appstore GO Kreasi"
                 />
               </a>
