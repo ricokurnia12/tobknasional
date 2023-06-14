@@ -14,7 +14,7 @@ const Tanggalcaradaftar = () => {
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start">
           <img
-            className="w-32 md:w-52 lg:w-96 me-4"
+            className="w-32 md:w-52 lg:w-96 me-0"
             src={`/${Directory}/gokrehero.png`}
             alt="GO KREASI"
           />
@@ -26,7 +26,7 @@ const Tanggalcaradaftar = () => {
               </div>
               <div className=" flex mt-2">
                 {/* <MdDateRange className="text-4xl lg:text-6xl me-2 inline self-center" /> */}
-                <div className=" text-sm self-center inline lg:text-2xl">
+                <div className=" text-sm self-center inline lg:text-xl 2xl:text-2xl">
                   12 Juni 2023 – 29 Juli 2023 Pukul 12.00 WIB
                   <br />
                 </div>
@@ -39,7 +39,7 @@ const Tanggalcaradaftar = () => {
               </div>
               <div className=" flex  mt-2">
                 {/* <MdDateRange className="text-4xl lg:text-6xl me-2 self-center" /> */}
-                <div className=" text-sm self-center lg:text-2xl">
+                <div className="self-center text-sm lg:text-xl 2xl:text-2xl">
                   Jumat, 28 Juli 2023 (Pukul 10.00 WIB - 20.00 WIB)
                   <br /> Sabtu, 29 Juli 2023 (Pukul 10.00 WIB - 20.00
                   WIB)
@@ -55,7 +55,7 @@ const Tanggalcaradaftar = () => {
               </div>
 
               <div className=" flex  mt-2">
-                <div className=" text-sm self-center lg:text-2xl">
+                <div className=" text-sm self-center lg:text-xl 2xl:text-2xl">
                   Kelas 10 dan 11 SMA/SMK/MA : 100 Menit
                   <br />
                   Kelas 12 SMA/SMK/MA : 90 Menit + 105 Menit
@@ -68,13 +68,13 @@ const Tanggalcaradaftar = () => {
       <div className="mt-4 md:flex md:flex-row-reverse mb-8">
         <div>
           <p className="lg:text-xl lg:text-center">
-            Untuk cara pendaftaranya sangat mudah lo, Kamu tinggal
-            klik tombol daftar sekarang lalu isi data diri kamu ya.
-            Untuk kelas 10 dan 11 SMA/SMK/MA, kamu hanya perlu
-            membayar Rp25.000 saja, dan untuk kelas 12 SMA/SMK/MA
-            cukup membayar Rp50.000 ya.
+            Untuk cara pendaftaranya sangat mudah lo Kamu tinggal klik
+            tombol daftar sekarang lalu isi data diri kamu ya. Untuk
+            kelas 10 dan 11 SMA/SMK/MA, kamu hanya perlu membayar
+            Rp25.000 saja, dan untuk kelas 12 SMA/SMK/MA cukup
+            membayar Rp50.000 ya.
           </p>
-          <h1 className="font-bold text-lg mt-2 lg:text-center">
+          <h1 className="font-bold text-lg mt-2 lg:text-xl lg:text-center">
             Yuk, daftar TOBK Nasional Sekarang!
           </h1>
           <div className="flex lg:justify-center">

@@ -20,7 +20,7 @@ const Alasan = () => {
             kesempatan merasakan TOBK yang mirip sesungguhnya.
             Soal-soal yang diujikan mirip dengan{' '}
             <b>UTBK-SNBT sebenarnya</b>, yang dapat kamu kerjakan
-            dengan system <i>blocking time</i>, kereen kan? Kamu
+            dengan system <i>blocking time</i>, keren kan? Kamu
             bakalan ngerasa banget deg-degannya saat waktu pengerjaan
             soal akan habis. Selain itu, system penilaiannya sudah
             menggunakan <i>IRT</i> dan
