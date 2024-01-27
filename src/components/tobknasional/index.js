@@ -1,11 +1,11 @@
-import React from 'react';
-import PenjelasanTobk from './Penjelasanfasilitas';
-import Alasan from './Alasan';
-import Sistem from './Sistem';
-import Tanggalcaradaftar from './Tanggalcaradaftar';
-import Navbar from './Navbar';
-import Hero2 from './Hero2';
-import Directory from '@/baseDirectory';
+import React from "react";
+import PenjelasanTobk from "./Penjelasanfasilitas";
+import Alasan from "./Alasan";
+import Sistem from "./Sistem";
+import Tanggalcaradaftar from "./Tanggalcaradaftar";
+import Navbar from "./Navbar";
+import Hero2 from "./Hero2";
+import Directory from "@/baseDirectory";
 
 const TobkNasional = () => {
   return (
@@ -25,7 +25,7 @@ const TobkNasional = () => {
       <Hero2 />
       <PenjelasanTobk />
       <Sistem />
-      <Alasan />
+      {/* <Alasan /> */}
       <Tanggalcaradaftar />
     </div>
   );

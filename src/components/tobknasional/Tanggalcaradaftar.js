@@ -6,44 +6,7 @@ import Directory from "@/baseDirectory";
 
 const Tanggalcaradaftar = () => {
   return (
-    <div className=" mx-auto  max-w-7xl px-4 md:px-12 mb-12 lg:px-28 2xl:px-0 md:mb-36 xl:-mt-40">
-      <div>
-        <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start">
-          <img
-            className="w-32 md:w-52 lg:w-96 me-0"
-            src={`/${Directory}/gokrehero.png`}
-            alt="GO KREASI"
-          />
-          <div>
-            <div className="text-primary mb-4">
-              <div>
-                <MdDateRange className="text-4xl lg:text-6xl me-2 inline self-center" />
-                <b className="lg:text-2xl">Tanggal Pendaftaran</b>
-              </div>
-              <div className=" flex mt-2">
-                {/* <MdDateRange className="text-4xl lg:text-6xl me-2 inline self-center" /> */}
-                <div className=" text-sm self-center inline lg:text-xl 2xl:text-2xl">
-                  29 Janurari - 27 Februari 2024
-                  <br />
-                </div>
-              </div>
-            </div>
-            <div className="text-primary ">
-              <div className="">
-                <MdDateRange className="text-4xl lg:text-6xl me-2 inline" />
-                <b className="lg:text-2xl">Tanggal Pelaksanaan</b>
-              </div>
-              <div className=" flex  mt-2">
-                {/* <MdDateRange className="text-4xl lg:text-6xl me-2 self-center" /> */}
-                <div className="self-center text-sm lg:text-xl 2xl:text-2xl">
-                  4 - 10 Maret 2024
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <div className=" mx-auto  max-w-7xl px-4 md:px-12 mb-12 lg:px-28 2xl:px-0 md:mb-36 ">
       {/* Yotube video */}
 
       <div className="flex flex-col items-center justify-center mt-10">
