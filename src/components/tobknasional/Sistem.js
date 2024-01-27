@@ -10,7 +10,7 @@ const Sistem = () => {
         Bagaimana sistem <br className="md:hidden" />
         pelaksanaannya ?
       </h1>
-      <div className="md:flex  justify-center mb-1 text-fontsecondary">
+      <div className="md:flex items-center justify-center mb-1 text-fontsecondary">
         <img
           className="w-full max-w-xs hidden md:block "
           src={`https://ganeshaoperation.com/images/gokre.png`}
