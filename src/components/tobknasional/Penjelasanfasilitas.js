@@ -1,50 +1,54 @@
-import React from 'react';
-import Card from './Card';
-import { Button } from './Button';
-import { BsBookHalf } from 'react-icons/bs';
-import { AiOutlineFieldTime } from 'react-icons/ai';
-import { MdOutlineAnalytics } from 'react-icons/md';
-import { SiBookmeter } from 'react-icons/si';
-import { RiBookReadFill } from 'react-icons/ri';
+import React from "react";
+import Card from "./Card";
+import { Button } from "./Button";
+import { BsBookHalf } from "react-icons/bs";
+import { AiOutlineFieldTime } from "react-icons/ai";
+import { MdOutlineAnalytics } from "react-icons/md";
+import { SiBookmeter } from "react-icons/si";
+import { RiBookReadFill } from "react-icons/ri";
 
 const PenjelasanTobk = () => {
   const fasilitas = [
     {
       icon: BsBookHalf,
-      title: 'Soal TOBK',
-      details: 'Soal TOBK yang persis UTBK-SNBT sebenarnya',
+      title: "Soal TOBK",
+      details:
+        "Persiapkan diri dengan mengerjakan soal-soal prediksi UTBK-SNBT.",
     },
     {
       icon: AiOutlineFieldTime,
       title: <i>Blocking Time</i>,
       details: (
         <p>
-          TOBK menggunakan system <i>blocking time</i> yaitu waktu
-          pengerjaan per <i>subtest</i> ujian
+          TOBK Nasional GO menggunakan sistem <i>blocking time</i> yang sesuai
+          dengan UTBK-SNBT sesunguhnya.
         </p>
       ),
     },
     {
       icon: MdOutlineAnalytics,
-      title: 'Penilaian',
+      title: "Penilaian",
       details: (
         <p>
-          Penilaian <i>IRT</i> dan <i>CEEB</i> yang sama digunakan
-          pada saat penilaian SNBT
+          Hasil TOBK Nasional GO diolah menggunakan sistem IRT yang valid karena
+          melibatkan lebih dari 10.000 peserta.
         </p>
       ),
     },
     {
       icon: SiBookmeter,
-      title: 'Analisis',
-      details:
-        'Analisis hasil TOBK SNBT melalui Evaluasi Prestasi Belajar(EPB) yang dapat dilihat pada GO Kreasi',
+      title: "Analisis",
+      details: (
+        <p>
+          Kamu mendapatkan laporan Evaluasi Prestasi Belajar (EPB) yang
+          menganalisis kemampuan kamu dalam mengerjakan setiap butir soalnya.
+        </p>
+      ),
     },
     {
       icon: RiBookReadFill,
-      title: 'Prediksi',
-      details:
-        'Mengetahui prediksi lulus (PL) di progam studi PTN impianmu',
+      title: "Prediksi",
+      details: "Mengetahui prediksi lulus (PL) di progam studi PTN impianmu",
     },
   ];
 
@@ -52,24 +56,21 @@ const PenjelasanTobk = () => {
     <div className="mx-auto max-w-7xl  md:mt-4 px-4 lg:px-28 2xl:px-0 mb-10">
       <div className="text-center mb-8">
         <h1 className="text-xl lg:text-4xl  font-bold mb-4 lg:mb-8">
-          Apa Itu TOBK Nasional Ganesha Operation ?{' '}
+          Kenapa harus ikut TOBK Nasional GO?{" "}
         </h1>
         <p className="text-fontsecondary lg:text-xl  2xl:px-24">
-          <i>Try Out</i> Berbasis Komputer (TOBK) yang diselenggarakan
-          oleh Ganesha Operation dengan jumlah peserta tersebar
-          se-Indonesia dan dilaksanakan melalui aplikasi GO Kreasi.
-          TOBK ini diadakan agar kamu tahu bagaimana gambaran
-          pelaksanaan UTBK-SNBT, soal-soal yang diujikannya, juga
-          system penilaiannya. Oiyaa, kamu jangan sampai salah pilih
-          TOBK yaa, karena di luar sana banyak loh TOBK kaleng-kaleng
-          yang mengaku menggunakan soal-soal dan system penilaian yang
-          mirip dengan UTBK-SNBT sesungguhnya..!!
+          TOBK yang diselenggarakan oleh Ganesha Operation dengan jumlah peserta
+          yang tersebar di seluruh Indonesia dan dilaksanakan melalui aplikasi
+          GO Expert. Dengan mengikuti TOBK Nasional GO, kamu bisa mendapatkan
+          pengalaman mengerjakan soal prediksi UTBK-SNBT yang dibuat oleh
+          Ganesha Operation dengan jenis soal sesuai dengan aturan terbaru dari
+          Panitia SNPMB 2024.
         </p>
       </div>
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-center text-xl lg:text-4xl  font-bold mb-4 lg:mb-8">
+      <div className="max-w-5xl mx-auto">
+        {/* <h1 className="text-center text-xl lg:text-4xl  font-bold mb-4 lg:mb-8">
           Fasilitas Yang Kamu Dapatkan
-        </h1>
+        </h1> */}
         <div className="flex justify-center  flex-wrap max-w-">
           {fasilitas.map((fas, i) => {
             return (

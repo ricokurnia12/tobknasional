@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    BASE_DIRECTORY: 'tobk_nasional_go',
+    BASE_DIRECTORY: "tobk-nasional-2024",
   },
-  basePath: '/tobk_nasional_go',
+  basePath: "/tobk-nasional-2024",
   // reactStrictMode: true,
 };
 

@@ -1,10 +1,10 @@
-import React from 'react';
-import { Button } from './Button';
-import Directory from '@/baseDirectory';
+import React from "react";
+import { Button } from "./Button";
+import Directory from "@/baseDirectory";
 
 const Alasan = () => {
   return (
-    <div className="mx-auto max-w-7xl md:-mt-24 lg:mt-22 px-4 md:px-12 lg:px-28 2xl:px-0 mb-12">
+    <div className="mx-auto max-w-7xl md:-mt-24 lg:mt-22 px-4 md:px-12 lg:px-28 2xl:px-0 ">
       <div className="sm:flex justify-center">
         <div className="ms-2 lg:pe-16">
           <h1 className="text-xl lg:text-2xl font-bold text-center px-2 mb-2 sm:text-start sm:px-0">
@@ -16,21 +16,19 @@ const Alasan = () => {
             alt="TOBK NASIONAL Ganesha Operation"
           />
           <p className="lg:text-lg text-fontsecondary">
-            Karena di TOBK Nasional ini, kamu akan diberikan
-            kesempatan merasakan TOBK yang mirip sesungguhnya.
-            Soal-soal yang diujikan mirip dengan{' '}
-            <b>UTBK-SNBT sebenarnya</b>, yang dapat kamu kerjakan
-            dengan system <i>blocking time</i>, keren kan? Kamu
-            bakalan ngerasa banget deg-degannya saat waktu pengerjaan
-            soal akan habis. Selain itu, system penilaiannya sudah
-            menggunakan <i>IRT</i> dan
-            <i>CEEB</i> seperti pada UTBK-SNBT sesungguhnya.{' '}
+            Karena di TOBK Nasional ini, kamu akan diberikan kesempatan
+            merasakan TOBK yang mirip sesungguhnya. Soal-soal yang diujikan
+            mirip dengan <b>UTBK-SNBT sebenarnya</b>, yang dapat kamu kerjakan
+            dengan system <i>blocking time</i>, keren kan? Kamu bakalan ngerasa
+            banget deg-degannya saat waktu pengerjaan soal akan habis. Selain
+            itu, system penilaiannya sudah menggunakan <i>IRT</i> dan
+            <i>CEEB</i> seperti pada UTBK-SNBT sesungguhnya.{" "}
             <b>
-              Sstt.. Sistem penilaian ini akan valid jika pesertanya
-              minimum 10.000 lho
+              Sstt.. Sistem penilaian ini akan valid jika pesertanya minimum
+              10.000 lho
             </b>
-            , jadi awas yaa kamu terjebak dengan TOBK bimbel lain yang
-            katanya penilaiannya <i>IRT</i> dan <i>CEEB</i>
+            , jadi awas yaa kamu terjebak dengan TOBK bimbel lain yang katanya
+            penilaiannya <i>IRT</i> dan <i>CEEB</i>
             ..!!
           </p>
         </div>
@@ -39,9 +37,6 @@ const Alasan = () => {
           className="mb-2 hidden sm:block w-72 lg:w-full"
           alt="TOBK NASIONAL Ganesha Operation"
         />
-      </div>
-      <div className="flex justify-center">
-        <Button>Daftar Sekarang</Button>
       </div>
     </div>
   );
