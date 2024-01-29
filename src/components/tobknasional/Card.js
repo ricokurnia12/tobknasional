@@ -3,7 +3,7 @@ import { BsBookHalf } from "react-icons/bs";
 
 const Card = (props) => {
   return (
-    <div className="bg-slate-50 w-72 h-48 px-4 py-2 rounded-lg shadow-lg mx-auto border">
+    <div className="bg-slate-50 w-60 h-52 px-4 py-2 rounded-lg shadow-lg mx-auto border">
       <div className="flex items-center text-primary font-bold">
         {props.icon}
         {props.title}

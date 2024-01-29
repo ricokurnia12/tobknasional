@@ -6,6 +6,7 @@ import { AiOutlineFieldTime } from "react-icons/ai";
 import { MdOutlineAnalytics } from "react-icons/md";
 import { SiBookmeter } from "react-icons/si";
 import { RiBookReadFill } from "react-icons/ri";
+import Alasan from "./Alasan";
 
 const PenjelasanTobk = () => {
   const fasilitas = [
@@ -54,24 +55,27 @@ const PenjelasanTobk = () => {
 
   return (
     <div className="mx-auto max-w-7xl  md:mt-4 px-4 lg:px-28 2xl:px-0 mb-10">
-      <div className="text-center mb-8">
+      <div className="text-center mb-40">
         <h1 className="text-xl lg:text-4xl  font-bold mb-4 lg:mb-8">
-          Kenapa harus ikut TOBK Nasional GO?{" "}
+          Apa Itu TOBK Nasional Ganesha Operation ?
         </h1>
         <p className="text-fontsecondary lg:text-xl  2xl:px-24">
-          TOBK yang diselenggarakan oleh Ganesha Operation dengan jumlah peserta
-          yang tersebar di seluruh Indonesia dan dilaksanakan melalui aplikasi
-          GO Expert. Dengan mengikuti TOBK Nasional GO, kamu bisa mendapatkan
-          pengalaman mengerjakan soal prediksi UTBK-SNBT yang dibuat oleh
-          Ganesha Operation dengan jenis soal sesuai dengan aturan terbaru dari
-          Panitia SNPMB 2024.
+          <i>Try Out</i> Berbasis Komputer (TOBK) yang diselenggarakan oleh
+          Ganesha Operation dengan jumlah peserta tersebar se-Indonesia dan
+          dilaksanakan melalui aplikasi GO Kreasi. TOBK ini diadakan agar kamu
+          tahu bagaimana gambaran pelaksanaan UTBK-SNBT, soal-soal yang
+          diujikannya, juga system penilaiannya. Oiyaa, kamu jangan sampai salah
+          pilih TOBK yaa, karena di luar sana banyak loh TOBK kaleng-kaleng yang
+          mengaku menggunakan soal-soal dan system penilaian yang mirip dengan
+          UTBK-SNBT sesungguhnya..!!
         </p>
       </div>
+      <Alasan />
       <div className="max-w-5xl mx-auto">
         {/* <h1 className="text-center text-xl lg:text-4xl  font-bold mb-4 lg:mb-8">
           Fasilitas Yang Kamu Dapatkan
         </h1> */}
-        <div className="flex justify-center  flex-wrap max-w-">
+        {/* <div className="flex justify-center  flex-wrap max-w-">
           {fasilitas.map((fas, i) => {
             return (
               <div key={i} className="sm:me-2 2xl:me-8 mb-2 sm:mb-4">
@@ -83,7 +87,7 @@ const PenjelasanTobk = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
         <div className="flex justify-center">
           <Button>Daftar Sekarang</Button>
         </div>
