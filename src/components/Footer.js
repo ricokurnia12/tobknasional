@@ -8,10 +8,10 @@ import {
   FaMailBulk,
   FaWhatsapp,
   FaLine,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
-import React from 'react';
-import Directory from '@/baseDirectory';
+import React from "react";
+import Directory from "@/baseDirectory";
 
 const Footer = () => {
   return (
@@ -38,7 +38,7 @@ const Footer = () => {
               alt="AppStore Go Kreasi"
             />
             <h1 className=" text-center mb-2 lg:text-lg">
-              Download Juga GO Kreasi Kini Sudah{' '}
+              Download Juga GO Kreasi Kini Sudah{" "}
               <br className="hide md:block" />
               Tersedia di PlayStore dan AppStore
             </h1>
@@ -60,21 +60,18 @@ const Footer = () => {
             <FaPhone className="self-center me-2" /> (022) 4218177
           </span>
           <span className="flex lg:text-xl lg:mb-4">
-            <FaMailBulk className="self-center me-2" />{' '}
+            <FaMailBulk className="self-center me-2" />{" "}
             officialgopusat@gmail.com
           </span>
           <span className="flex lg:text-xl lg:mb-4">
-            <FaWhatsapp className="self-center me-2" /> +62
-            811-2468-988
+            <FaWhatsapp className="self-center me-2" /> +62 811-2468-988
           </span>
           <span className="flex lg:text-xl lg:mb-4">
             <FaLine className="self-center me-2" /> (022) 4218177
           </span>
         </div>
         <div className="mt-4 self-start">
-          <h1 className=" font-bold mb-2 lg:text-2xl">
-            Info Lebih Lanjut
-          </h1>
+          <h1 className=" font-bold mb-2 lg:text-2xl">Info Lebih Lanjut</h1>
           <div className="lg:text-xl">
             <a
               className="block lg:mb-4 hover:text-secondary "
@@ -115,9 +112,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-5 mx-auto text-center max-w-5xl">
-        <small>
-          © Copyright 2023, Ganesha Operation. All Rights Reserved
-        </small>
+        <small>© Copyright 2023, Ganesha Operation. All Rights Reserved</small>
         <div className="flex justify-evenly mt-2">
           <a
             href="https://id-id.facebook.com/ganesha.operation.official/"
@@ -131,10 +126,7 @@ const Footer = () => {
           >
             <FaInstagram className="text-3xl  hover:text-secondary l" />
           </a>
-          <a
-            href="https://twitter.com/officialgopusat"
-            target="_blank"
-          >
+          <a href="https://twitter.com/officialgopusat" target="_blank">
             <FaTwitter className="text-3xl  hover:text-secondary " />
           </a>
           <a

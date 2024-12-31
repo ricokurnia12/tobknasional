@@ -4,7 +4,7 @@ import Script from "next/script";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head title="TOBK NASIONAL 2023 | Ganesha Operation ">
+      <Head title="TOBK NASIONAL 2024 | Ganesha Operation ">
         <title>TOBK NASIONAL 2024 | Ganesha Operation </title>
         <Script
           id="gtm-script"
